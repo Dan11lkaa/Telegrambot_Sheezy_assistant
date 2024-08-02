@@ -3,14 +3,14 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 from gigachat import GigaChat
-from app.states import AI
+from states import AI
 from config import AI_TOKEN
 from gigachat.models import Chat, Messages, MessagesRole
-from app.keyboard import klav
+from keyboard import klav
 from datetime import datetime
 from sqlalchemy.future import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.database.models import User, Task, async_session
+from models import User, Task, async_session
 import datetime as dt
 import pytz
 
