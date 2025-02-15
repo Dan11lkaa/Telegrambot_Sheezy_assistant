@@ -68,8 +68,9 @@ pip install aiogram gigachat sqlalchemy pytz
  AI_TOKEN = 'ваши авторизационные данные бота'
 ```
 
-В `TOKEN` вставляйте токен бота, полученного из бота BotFather в телеграмме
-В `AI_TOKEN` вставляйте токен для Gigachat из личного кабинета в Gigachat Api
+В `TOKEN` вставляйте токен бота, полученного из бота BotFather в телеграмме.
+
+В `AI_TOKEN` вставляйте токен для Gigachat из личного кабинета в Gigachat Api.
 
 ### Запуск бота (Введите команду в терминал проекта):
 
